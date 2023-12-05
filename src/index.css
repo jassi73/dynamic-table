@@ -1,0 +1,153 @@
+.modalEdit {
+  padding: 30px 0px;
+  width: 100%;
+}
+.mainBtn {
+  padding: 10px 10px;
+  border: 2px solid #37010b;
+  color: #37010b;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+.dangerBtn{
+  padding: 10px 30px;
+  border: 2px solid #37010b;
+  color: #b8332a;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  
+}
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dashboardTable {
+  display: flex;
+  justify-content: center;
+}
+
+.headingWrn{
+  height: auto;
+  text-align: center;
+}
+
+.userDash{
+  display: flex;
+  justify-content: center;
+}
+table tr{background-color: #f2f2f2; color: #1a1a1a;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+table td:last-child {
+ display: flex;
+ gap:4px
+}
+
+.popupBtn {
+  padding: 10px 30px;
+  background-color: #37010b;
+  color: #fff;
+}
+.btnGroup{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  height: 45px;
+}
+
+.btnGroup1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  height: 45px;
+}
+.modalEdit .form-control {
+  background-color: #f3f3f3;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    color: #302f2f;
+    margin-bottom: 20px;
+    padding-left: 6px;
+    width: 100%;
+}
+.addPinModal .modalEdit {
+  min-height: inherit;
+}
+
+.offerModalShow .ant-modal-title {
+  position: relative;
+}
+.deletemodal {
+  max-width: 360px;
+}
+
+.deleteBtnn {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.deleteBtnn:hover {
+  border-color: #37010b;
+}
+
+
+.offerModalShow .ant-modal-title:after {
+  content: "";
+  width: 70px;
+  position: absolute;
+  height: 3px;
+  background-color: #37010b;
+  bottom: -6px;
+  left: 0px;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #9f9fa7;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
