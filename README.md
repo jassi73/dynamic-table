@@ -20,7 +20,8 @@ Ant Design: Utilized for modal components, offering a sleek and responsive UI.
 * Installation
 To set up this project locally, follow these steps:
 
-Clone the repository: git clone 
+Clone the repository: https://github.com/jassi73/dynamic-table.git 
+start the server: npm run dev
 
 Install dependencies: npm install or yarn install
 
